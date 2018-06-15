@@ -1,3 +1,7 @@
 we'll use create-react-app to get our boilerplate 
 we'll then use yarn to add our dependencies, AXIOS and React Router DOM 
-nex we'll add bootstrap to index.html file 
+next we'll add bootstrap to index.html file 
+
+to begin we're going to import react from react 
+	browser router as router and route
+		both of these will come from the react router dom 
