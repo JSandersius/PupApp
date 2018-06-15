@@ -1,1 +1,3 @@
 we'll use create-react-app to get our boilerplate 
+we'll then use yarn to add our dependencies, AXIOS and React Router DOM 
+nex we'll add bootstrap to index.html file 
