@@ -7,7 +7,7 @@ so we'll be using state as well
 the final page has a form, so it looks like we're probably going to be using state on this one as well 
 and the results are going to be from an API call 
 
-first things first, get everything set up 
+first things first, get everything set up  
 we'll use create-react-app to get our boilerplate 
 we'll then use yarn to add our dependencies, AXIOS and React Router DOM 
 next we'll add bootstrap to index.html file 
