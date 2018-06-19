@@ -1,33 +1,21 @@
-import React  from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Discover from "./pages/Discover";
-import About from "./pages/About";
-import Search from "./pages/Search";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Wrapper from "./components/Wrapper";
- 
-//these components will only be rendered if the path is exactly matched
-//if we were to leave out the exact property, the component will render at the path starting
-//at the suggested path
-//if we don't add a path, we can chooese to render a component on no match whatsoever
-//this gives us the option to add a 404 page 
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-const App = () => 
-
-  <Router>
-    <div>
-        <Navbar />
-        <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/discover" component={Discover} />
-          <Route exact path="/search" component={Search} />
-          </Wrapper> 
-          <Footer /> 
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to React</h1>
+        </header>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
       </div>
-      </Router>; 
-      
-    
+    );
+  }
+}
 
 export default App;
