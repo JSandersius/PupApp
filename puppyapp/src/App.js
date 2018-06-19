@@ -1,5 +1,5 @@
 import React  from 'react';
-import from { BroweserRouter as Router, Route } from "react-router-dom";
+import from { BrowserRouter as Router, Route } from "react-router-dom";
 import Discover from "./pages/Discover";
 import About from "./pages/About";
 import Search from "./pages/Search"
@@ -24,7 +24,7 @@ cont App = () =>
           </Wrapper> 
           <Footer /> 
       </div>
-      </Router> 
+      </Router>   
     
 
 export default App;
