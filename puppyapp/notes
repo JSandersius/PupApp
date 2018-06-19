@@ -1,3 +1,5 @@
+url for this video https://www.youtube.com/watch?v=_l1cwxBLhBY&feature=youtu.be
+
 if we look at the finished app, we see that the landing is static, pretty
 simple to build
 the second page is looks a little bit more tricky
@@ -38,6 +40,7 @@ This give you the option to add a 404 page
 Dont be too worried if this hasn't clicked yet, it will in a bit 
 
 I'm now going to component files and simply add an h1 tag, including the name of the component so I can check to make sure the react router is working properly 
+
 
 
 

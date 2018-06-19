@@ -8,6 +8,11 @@ import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
  
 cont App = () => 
+//these components will only be rendered if the path is exactly matched
+//if we were to leave out the exact property, the component will render at the path starting
+//at the suggested path
+//if we don't add a path, we can chooese to render a component on no match whatsoever
+//this gives us the option to add a 404 page 
   <Router>
     <div>
         <Navbar />
@@ -15,7 +20,7 @@ cont App = () =>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/discover" component={Discover} />
-          <Route exact path="/search" component={Searcher} />
+          <Route exact path="/search" component={Search} />
           </Wrapper> 
           <Footer /> 
       </div>
