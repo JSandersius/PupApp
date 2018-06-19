@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
  
-const App = () => 
+const App = () => (
 //these components will only be rendered if the path is exactly matched
 //if we were to leave out the exact property, the component will render at the path starting
 //at the suggested path
@@ -25,6 +25,7 @@ const App = () =>
           <Footer /> 
       </div>
       </Router>   
+      );
     
 
 export default App;
