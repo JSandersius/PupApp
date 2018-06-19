@@ -13,7 +13,7 @@ import Wrapper from "./components/Wrapper";
 //if we don't add a path, we can chooese to render a component on no match whatsoever
 //this gives us the option to add a 404 page 
 
-const App = () => (
+const App = () => 
 
   <Router>
     <div>
@@ -26,8 +26,8 @@ const App = () => (
           </Wrapper> 
           <Footer /> 
       </div>
-      </Router>   
-      );
+      </Router>; 
+      
     
 
 export default App;
