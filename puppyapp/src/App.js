@@ -1,5 +1,5 @@
 import React  from 'react';
-import from { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Discover from "./pages/Discover";
 import About from "./pages/About";
 import Search from "./pages/Search"
@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
  
-cont App = () => 
+const App = () => 
 //these components will only be rendered if the path is exactly matched
 //if we were to leave out the exact property, the component will render at the path starting
 //at the suggested path
