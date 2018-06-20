@@ -83,5 +83,12 @@ the button click function itself and the API calls should be habdled in the pare
 so they will be taken care of in this discover component, however we will be passing down the image as a prop as well as giving permission for the child
 component to access the handle button click function
 for right now, we're going to define the function  and simply have it do a console.log to notify us that it is in fact working 
+and we'll pass the two props to the card compoent that we will be creating next, the image for now can remain empty as we havent created the API call yet eighther
+we must import these components as we go 
+
+now when we create the card component we're going to create the spinning circle before the API call has been made, 
+which will be replaced when the state has updated 
+so we're going to use a conditional render , if there is no prop.image the spinning icon will take the place instead 
+
 
 
