@@ -1,4 +1,4 @@
-import Search from "react";
+import React from "react";
 
 const Search = () => <h1>Search</h1> 
 
