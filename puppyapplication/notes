@@ -41,7 +41,19 @@ Dont be too worried if this hasn't clicked yet, it will in a bit
 
 I'm now going to create component files and simply add an h1 tag, including the name of the component so I can check to make sure the react router is working properly 
 
+_______
+Ok so after much effort the react-router is properly working 
+the webpage compiles and the three path work 
 
+now we're going to build the navbar itself 
+the main difference we're going to have in a react router is that we'er going to be using 
+a link tag over a href
+	the anchor tag reload the whole page, Link prevents that 
+	link will change the page pathname without reloading the whole page 
+	allowing us to take advantage of react ability to reload individual components
 
+for further explanation on react router, google search "simple react router"
+https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf	
 
+building out the rest of the navbar is essentially the same as building out a regular navbar 
 
