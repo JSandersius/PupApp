@@ -9,7 +9,7 @@ const Navbar = props =>
             <div classname="navbar-header">
                 <Link className="navbar-brand" to="/">
                     Pupster
-                    </Link>
+                </Link>
                     </div>
                     <ul> className="nav navbar-nav">
                       <li> 
