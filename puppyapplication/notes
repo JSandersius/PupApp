@@ -75,4 +75,13 @@ once the card component has been mounted, we'll make an API call to search for d
 lets start by setting the discover component as a class because we are using state
 
 Ok what we did was created Discover components as simple as we could've  made it , we havent added the card component yet but that will come next 
+right now, what we're doing is we've set the state and we're taking advantage of the states matchCount in order to render how many matches we've made so far 
+we have none right now because it's not fuctional yet 
+
+the card component consists of two main things, the image of the dog that we get from the API call and the buttons, 
+the button click function itself and the API calls should be habdled in the parent component
+so they will be taken care of in this discover component, however we will be passing down the image as a prop as well as giving permission for the child
+component to access the handle button click function
+for right now, we're going to define the function  and simply have it do a console.log to notify us that it is in fact working 
+
 

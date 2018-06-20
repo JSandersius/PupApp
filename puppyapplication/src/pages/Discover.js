@@ -1,10 +1,16 @@
 import React, { Component } from "react";
+import Card from "../components/Card";
 
 class Discover extends Component {
     state = {
         image: "",
         matchCount: 0
     };
+
+    handleBtnClick = event => {
+        console.log(event);
+    };
+
 
     render() {
         return (
@@ -13,6 +19,7 @@ class Discover extends Component {
                 <h3 className="text-center">
                     Thumbs up on any pups you'd like to meet!
                     </h3>
+                <Card image={this.state.image} handleBtnClick={this.handleBtnClick} />
                 <h1 className="text-center">
                     Made friends with {this.state.matchCount} pups so far!
                         </h1>
