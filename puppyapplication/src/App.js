@@ -9,7 +9,7 @@ import Wrapper from "./components/Wrapper";
 import logo from './logo.svg';
 import './App.css';
 
-const App = () =>
+const App = () => 
   <Router>
     <div>
       <Navbar />
