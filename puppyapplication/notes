@@ -66,3 +66,13 @@ likewise we're also goo be adding some additionlal components for simplicity
 the container , row and call components are very simple they will simply allow us to create divs with certain classes in a much shorter syntax throughout the page 
 we can recyvle these components within out application and not just within the about page 
 
+OK, lets move on to the Discover page, this page looks a lot more challenging so lets break it down 
+when the page loads initially we see a card sitting in the middle of the page with a spinning circle
+	whay does this mean? the card is loaded with a spinning circle and once tha API call is made and a dog has been found, the card will be updated 
+	we can do this by taking advanage of the component LIFECYCLE
+once the card component has been mounted, we'll make an API call to search for dogs, the component will be reloaded once we've got a response, 
+
+lets start by setting the discover component as a class because we are using state
+
+Ok what we did was created Discover components as simple as we could've  made it , we havent added the card component yet but that will come next 
+
