@@ -58,3 +58,11 @@ https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf
 building out the rest of the navbar is essentially the same as building out a regular navbar 
 we're also going to be adding a conditional active class that is only going to be applies if the pathname matches
 
+OK, lets get buildin out our pages. We'll start with the About page 
+this will be very simple, there are no dynamic components on this page, it is very static so this components doesn't have to be a class 
+we're also going to be adding a couple components here to keep the code clean  
+this hero components is going to be used to hold the image, we're going to add some styling in the components file to keep the about page pretty clean 
+likewise we're also goo be adding some additionlal components for simplicity 
+the container , row and call components are very simple they will simply allow us to create divs with certain classes in a much shorter syntax throughout the page 
+we can recyvle these components within out application and not just within the about page 
+
