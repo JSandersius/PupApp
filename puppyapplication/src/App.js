@@ -21,7 +21,7 @@ const App = () =>
       </Wrapper>
       <Footer />
     </div>
-  </Router>);
+   </Router>);
 
 
 export default App;
