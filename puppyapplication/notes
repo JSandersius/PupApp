@@ -56,4 +56,5 @@ for further explanation on react router, google search "simple react router"
 https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf	
 
 building out the rest of the navbar is essentially the same as building out a regular navbar 
+we're also going to be adding a conditional active class that is only going to be applies if the pathname matches
 
