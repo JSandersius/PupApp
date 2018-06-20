@@ -8,7 +8,7 @@ const Card = props =>
       backgroundImage: props.image ? `url(${props.image})` : "none"
     }}
   >
-    {!props.image && <i classname="fa fa-spinner fa-spin" aria-hidden="true" />}
+    {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
   </div>
 
 
