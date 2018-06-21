@@ -90,5 +90,15 @@ now when we create the card component we're going to create the spinning circle 
 which will be replaced when the state has updated 
 so we're going to use a conditional render , if there is no prop.image the spinning icon will take the place instead 
 
+because the image property in state is an empty string, we'll be rendering the spinning
+icon right away
+
+next, lets create the two buttons 
+we're going to create a new button called card button  
+we'll add some css for this as well 
+
+now for these two buttons, we'll be passing come styling, the on-click function that
+we got from the parent 
+
 
 
