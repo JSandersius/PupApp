@@ -97,8 +97,19 @@ next, lets create the two buttons
 we're going to create a new button called card button  
 we'll add some css for this as well 
 
-now for these two buttons, we'll be passing come styling, the on-click function that
-we got from the parent 
+now for these two buttons, we'll be passing come styling, the on-click function that we got from the parent 
+and we'll define the data value as pass or pick to differenciate the two
+in the component itself, we'll assign the on-click function and we'll assign the data values as class names
+
+//the jsx shortcut here means that the rest of the properties of this props object will be added
+//to the button element 
+//so in this case, all of the inline css will be applied as well as the date value 
+
+now lets make the API call so that we can actually load images of the dogs 
+the API call will be made in the discover component
+but we're going to store tha API calls in a seperate folder 
+we'll name the folder utils and the filename will be API .js 
+
 
 
 
