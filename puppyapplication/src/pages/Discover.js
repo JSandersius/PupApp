@@ -11,6 +11,16 @@ class Discover extends Component {
         console.log(event);
     };
 
+    loadNextDog = () => {
+        API.getRandomDog()
+            .then(res =>
+                this.setState({
+                    image: res.data.message
+                })
+            )
+            .catch(err => console.log(err));
+
+    };
 
     render() {
         return (
