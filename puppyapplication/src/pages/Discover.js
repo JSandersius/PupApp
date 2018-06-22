@@ -33,39 +33,39 @@ class Discover extends Component {
             //if we thumbs down'ed the dog, we haven't matched with it 
             newState.match = false;
         }
+    }
         //replace the component's state with newState, load the next image
         this.setState(newState);
-        this.loadNextDog();
+this.loadNextDog();
 
-        console.log(btnType);
-    };
+};
 
-    loadNextDog = () => {
-        API.getRandomDog()
-            .then(res =>
-                this.setState({
-                    image: res.data.message
-                })
-            )
-            .catch(err => console.log(err));
+loadNextDog = () => {
+    API.getRandomDog()
+        .then(res =>
+            this.setState({
+                image: res.data.message
+            })
+        )
+        .catch(err => console.log(err));
 
-    };
+};
 
-    render() {
-        return (
-            <div>
-                <h1 className="text-center">Make New Friends</h1>
-                <h3 className="text-center">
-                    Thumbs up on any pups you'd like to meet!
+render() {
+    return (
+        <div>
+            <h1 className="text-center">Make New Friends</h1>
+            <h3 className="text-center">
+                Thumbs up on any pups you'd like to meet!
                     </h3>
-                <Card image={this.state.image} handleBtnClick={this.handleBtnClick} />
-                <h1 className="text-center">
-                    Made friends with {this.state.matchCount} pups so far!
+            <Card image={this.state.image} handleBtnClick={this.handleBtnClick} />
+            <h1 className="text-center">
+                Made friends with {this.state.matchCount} pups so far!
                         </h1>
-            </div>
+        </div>
 
-        );
-    }
+    );
+}
 }
 
 export default Discover;
