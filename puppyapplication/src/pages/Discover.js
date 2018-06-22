@@ -6,6 +6,10 @@ class Discover extends Component {
         image: "",
         matchCount: 0
     };
+    //runs as soon as this Discover component has mounted
+    componentDidMount() {
+        this.loadNextDog();
+    }
 
     handleBtnClick = event => {
         console.log(event);
