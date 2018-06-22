@@ -13,7 +13,7 @@ const Card = props => (
     <CardBtn
       style={{ opacity: props.image ? 1 : 0 }}
       onClick={props.handleBtnClick}
-      data-value="press"
+      data-value="pass"
     />
     <CardBtn
       style={{ opacity: props.image ? 1 : 0 }}
