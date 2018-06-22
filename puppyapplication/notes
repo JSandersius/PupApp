@@ -129,11 +129,24 @@ this way the page loads quickly and we're not waiting for a response from a serv
 this method is known as "component did mount" and as the name suggests this runs after this Discover component has mounted 
 
 ok lets look what we've got, so everything looks good except for the pass button rendering
-as of right now, all the buttons do now is console.log() the fact that they were pressed
+as of right now, all the buttons do now is console.log() the event 
 
 when either of these buttons is clicked, we're triggering the handleBtnClickin the Discover component
 so the first thing we're going to need to do is allow the method to differenciate the two 
 	we're going to create a variable called button-type and its going to recieve the data-value property from the selected button 
 	lets console.log this as well to ensure that this is working properly 
+
+Ok, it's console.log()  ing properly so we know we stored the button type properly 
+Next we need to create and if statement to handle the two different button typese 
+if the button type is picked, we're going to randomly decide if the dog is a match or not 
+	we are then going to need to increase the match count  
+in order to do all this , we're going to need a new variable called "newstate" which inherits the properties of the state object as it is right now 
+remember ,we shouldnt be making changes to the state directly 
+so what we're doing is creating an object that we can modify before updating the state. 
+we're going to update the matchCount if there is a match, if not, we'll just leave it as it  
+	if the button type is not picked , we're going to just set the match to false and move on 
+		once we're run through this if-statement we're going to set the state and load the next dog 
+		
+
 
 	
