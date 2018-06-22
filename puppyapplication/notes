@@ -109,6 +109,7 @@ the API call will be made in the discover component
 but we're going to store tha API calls in a seperate folder 
 we'll name the folder Utils and the filename will be API .js 
 of course, remember to import this as well 
+mkdir utils 
 
 
 
