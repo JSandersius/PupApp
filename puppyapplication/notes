@@ -107,7 +107,7 @@ in the component itself, we'll assign the on-click function and we'll assign the
 now lets make the API call so that we can actually load images of the dogs 
 the API call will be made in the discover component
 but we're going to store tha API calls in a seperate folder 
-we'll name the folder utils and the filename will be API .js 
+we'll name the folder Utils and the filename will be API .js 
 of course, remember to import this as well 
 
 
