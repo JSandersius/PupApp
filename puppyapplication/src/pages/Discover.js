@@ -7,13 +7,18 @@ class Discover extends Component {
         image: "",
         matchCount: 0
     };
+
+    //when the component mounts, load the next dog to be displayed
     //runs as soon as this Discover component has mounted
     componentDidMount() {
         this.loadNextDog();
     }
 
     handleBtnClick = event => {
-        console.log(event);
+        //Get the data value of the clicked button
+        const btnType = event.target.attributes.getNamedItem("data-value").value;
+
+        console.log(btnType);
     };
 
     loadNextDog = () => {

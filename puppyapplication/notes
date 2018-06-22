@@ -127,3 +127,8 @@ this way the page loads quickly and we're not waiting for a response from a serv
 	respond before the page is loaded 
 
 this method is known as "component did mount" and as the name suggests this runs after this Discover component has mounted 
+
+ok lets look what we've got, so everything looks good except for the pass button rendering
+as of right now, all the buttons do now is console.log() the fact that they were pressed
+
+when either of these buttons is clicked, we're triggering the handleBtnClickin the Discover component
