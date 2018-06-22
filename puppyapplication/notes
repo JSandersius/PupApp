@@ -132,3 +132,8 @@ ok lets look what we've got, so everything looks good except for the pass button
 as of right now, all the buttons do now is console.log() the fact that they were pressed
 
 when either of these buttons is clicked, we're triggering the handleBtnClickin the Discover component
+so the first thing we're going to need to do is allow the method to differenciate the two 
+	we're going to create a variable called button-type and its going to recieve the data-value property from the selected button 
+	lets console.log this as well to ensure that this is working properly 
+
+	
