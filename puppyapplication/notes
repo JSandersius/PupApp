@@ -110,6 +110,8 @@ but we're going to store tha API calls in a seperate folder
 we'll name the folder Utils and the filename will be API .js 
 of course, remember to import this as well 
 mkdir utils 
-
+Ok, made in API.js we're going to use Axios to make the API calls
+Axios is very similar to Ajax however it is designed to work with React insread of JQuery 
+So the first thing we need to do is import Axios 
 
 
