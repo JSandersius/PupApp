@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Card from "../components/Card";
-import API from "../utils/API.js";
+import API from "../utils/API";
 
 class Discover extends Component {
     state = {
@@ -24,7 +24,7 @@ class Discover extends Component {
 
         if (btnType === "pick") {
             //Set newState.match to either true or false depending on whether or not the dog likes us (1/5 chance)
-            newState.match = 1 === Match.floor(Math.random() * 5) + 1;
+            newState.match = 1 === Math.floor(Math.random() * 5) + 1;
 
             //Set newState.matchCount equal to its current value or its current value + 1 depending on whether the dog likes us 
             newState.matchCount = newState.match
@@ -37,7 +37,6 @@ class Discover extends Component {
         //replace the component's state with newState, load the next image
         this.setState(newState);
         this.loadNextDog();
-
     };
 
     loadNextDog = () => {
@@ -48,7 +47,6 @@ class Discover extends Component {
                 })
             )
             .catch(err => console.log(err));
-
     };
 
     render() {
