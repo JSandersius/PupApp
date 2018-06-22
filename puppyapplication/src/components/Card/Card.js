@@ -2,7 +2,7 @@ import React from "react";
 import CardBtn from "../CardBtn";
 import "./Card.css";
 
-const Card = props =>
+const Card = props => (
   <div
     className="card"
     style={{
@@ -21,6 +21,7 @@ const Card = props =>
       data-value="pick"
     />
   </div>
+);
 
 
 export default Card;

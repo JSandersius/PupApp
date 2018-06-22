@@ -119,3 +119,11 @@ So the first thing we need to do is import Axios
 back in the Discover component, we're going to want to make a method to make the API call 
 so we're going to create a function called "load next dog" 
 we're going to make tha API call and with the response from that call, we're going to update the state of image 
+Ok, we have that all set up, but this method isn't being called anywhere, 
+when and where would be the best time and place to make the GET request? 
+we can now take advantage of Reacts component LIFECYCLEs 
+we can make the calls to the API once the Discover compoent has been mounted
+this way the page loads quickly and we're not waiting for a response from a server that may never 
+	respond before the page is loaded 
+
+this method is known as "component did mount" and as the name suggests this runs after this Discover component has mounted 
