@@ -5,6 +5,7 @@ import API from "../utils/API.js";
 class Discover extends Component {
     state = {
         image: "",
+        match: false,
         matchCount: 0
     };
 
@@ -33,7 +34,6 @@ class Discover extends Component {
             //if we thumbs down'ed the dog, we haven't matched with it 
             newState.match = false;
         }
-
         //replace the component's state with newState, load the next image
         this.setState(newState);
         this.loadNextDog();
