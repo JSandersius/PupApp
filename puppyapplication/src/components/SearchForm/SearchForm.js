@@ -10,7 +10,7 @@ const SearchForm = props =>
                 onChange={props.handleInputChange}
                 name="breed"
                 type="text"
-                className="form-control;
+                className="form-control"
                 placeholder="Type in a dog breed to begin"
                 id="breed"
             />
