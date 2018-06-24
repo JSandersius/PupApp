@@ -19,7 +19,10 @@ const SearchForm = props => (
             <datalist id="breeds">
                 {props.breeds.map(breed => <option value={breed} key={breed} />)}
             </datalist>
-            <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success">
+            <button
+                type="submit"
+                onClick={props.handleFormSubmit}
+                className="btn btn-success">
                 Search
       </button>
         </div>

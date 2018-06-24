@@ -186,6 +186,18 @@ the breed list should be retieved as soon as the page loads so we're going to pl
 and we're gong to update the breeds array in the state and pass it down to the searchFrom 
 
 now in the searchForm we're going to be using MAP to create the list of breeds 
+so it works great, now we just need to make the button to submit the form 
+the button should trigger a function in the parent component
+so we're going to create that function as well and pass it down as a prop 
+when the form is submitted we  need to make another API call with whatever the state of search is as parameter 
+	once we're recieved a response we're going to update the reault state and pass that state to the search results component
 
+we're also going to make an alert compoenent for all of the error messages we're going to be getting 
+we're also going to be storing errors in state as well
 
+ok, we're almost done, the last step now it to display the results
+we can do this by creating a list and using the map method to create an li element for each result with the image of the dog 
+ that is it
+
+ https://www.youtube.com/watch?v=_l1cwxBLhBY&feature=youtu.be
 
