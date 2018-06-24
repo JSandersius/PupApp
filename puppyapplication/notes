@@ -167,6 +167,14 @@ next we're going to render a container,
  
  lets get working on the searchForm a bit .. 
  okay so we're going to need an input field, and a submit button
+ we're also going to label the input field "breedName" 
+ for the input field, we're palling on updating the state and the parent component
+ so what we're going to need to do it pass down a method as a prop from the parent component called handleinput change 
+ while in the child component , we're able to read the parents state, but we're unable to make changes directly 
+ we have to pass down a method that can update the stat
+ so lets make the method in the search component now and pass it down to the searchForm
+
+ 
 
 
 
