@@ -6,6 +6,16 @@ class Search extends Component {
         breeds: [],
         results: []
     };
+
+    render() {
+        return (
+            <Container style=({ minHeight: "80%" }) >
+                <h1 className="text-center">Search By Breed!</h1>
+                <SearchForm />
+                <SearchResults /> 
+            </ Container>
+                );
+    }
 }
 
 export default Search;
