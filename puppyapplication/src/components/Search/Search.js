@@ -1,6 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Search = () => <h1>Search</h1>
+class Search extends Component {
+    state = {
+        search: "",
+        breeds: [],
+        results: []
+    };
+}
 
 export default Search;
 

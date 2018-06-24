@@ -151,6 +151,21 @@ we're going to update the matchCount if there is a match, if not, we'll just lea
 Lets's check the app.. we made a match! and its loading all the dogs successfuly 
 Now we can move on to the search page 
 
+The search page looks to be a bit easier, but let's break it down 
+we know we're going to need to make another API call , to get all of the dog breeds 
+we're also going to need a searchbar to go through those breeds and once we've chosen a breed, we need to make another API call 
+	and list the results underneath 
+
+we're going to start by making the search component a class and give it a state
+we're doing this because we know we're going to have a search bar and we're going ot have results 
+we're also going to have a list of breeds so lets start by adding those states in search.js now 
+
+next we're going to render a container, 
+	in this container we're going to have an h1 element, the search form and the search results components
+		lets create those now as well
+ for now we're going to list them in search.js and not pass any properties in them 
+ 
+
 
 
 
