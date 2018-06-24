@@ -11,19 +11,21 @@ class Search extends Component {
     };
 
     handleInputChange = event => {
-        this.state({})
-    }
+        this.state({ search: event.target.value });
+        console.log(this.state.search);
+    };
 
     render() {
         return (
             <Container style={{ minHeight: "80%" }} >
                 <h1 className="text-center">Search By Breed!</h1>
-                <SearchForm />
+                <SearchForm
+                    handleInputChange={this.handleInputChange}
+                />
                 <SearchResults />
             </ Container>
         );
     }
-
 }
 export default Search;
 
