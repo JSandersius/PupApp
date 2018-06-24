@@ -185,6 +185,7 @@ in API js we're going to create  a func to be exported that will use Axios to ma
 the breed list should be retieved as soon as the page loads so we're going to placing that in the ComponentsDidMount lifecycle 
 and we're gong to update the breeds array in the state and pass it down to the searchFrom 
 
-now in the searchForm we're going to be using map to create the list of breeds 
+now in the searchForm we're going to be using MAP to create the list of breeds 
+
 
 
