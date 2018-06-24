@@ -165,6 +165,8 @@ next we're going to render a container,
 		lets create those now as well
  for now we're going to list them in search.js and not pass any properties in them 
  
+ lets get working on the searchForm a bit .. 
+ okay so we're going to need an input field, and a submit button
 
 
 
