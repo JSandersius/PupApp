@@ -5,8 +5,12 @@ import axios from "axios";
 export default {
     getRandomDog: function () {
         return axios.get("https://dog.ceo/api/breeds/image/random");
+    },
+
+    getBaseBreedList: function () {
+        return axios.get("https://dog.ceo/api/breeds/list");
     }
-}
+};
 
 
 //we're going to export a method called get random dog which is going to make a GET request from the link provided in the instructions

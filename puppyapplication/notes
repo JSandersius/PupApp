@@ -174,11 +174,17 @@ next we're going to render a container,
  we have to pass down a method that can update the state
  so lets make the method in the search component now and pass it down to the searchForm
 
-we're going go console.log the state within the handleInputChange method because we want to test to make sure that state is being properly updated
+we're going go console.log the search property in state within the handleInputChange method because we want to test to make sure that state is being properly updated
  
+Now we can create a dataList
+this is going to be a list of all the breeds that we can search for 
+we're going to need to make an API call for this so lets go to the search component and import API.js from the utils folder and create a method for retriveing the datalist 
+
+in API js we're going to create  a func to be exported that will use Axios to make a GET request so that dog.ceo API and retrive the list of breeds
+
+the breed list should be retieved as soon as the page loads so we're going to placing that in the ComponentsDidMount lifecycle 
+and we're gong to update the breeds array in the state and pass it down to the searchFrom 
+
+now in the searchForm we're going to be using map to create the list of breeds 
 
 
-
-
-
-	
