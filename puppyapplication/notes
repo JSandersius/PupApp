@@ -148,6 +148,9 @@ we're going to update the matchCount if there is a match, if not, we'll just lea
 	if the button type is not picked , we're going to just set the match to false and move on 
 		once we're run through this if-statement we're going to set the state and load the next dog 
 
+Lets's check the app.. we made a match! and its loading all the dogs successfuly 
+Now we can move on to the search page 
+
 
 
 
