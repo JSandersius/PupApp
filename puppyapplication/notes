@@ -142,11 +142,14 @@ if the button type is picked, we're going to randomly decide if the dog is a mat
 	we are then going to need to increase the match count  
 in order to do all this , we're going to need a new variable called "newstate" which inherits the properties of the state object as it is right now 
 remember ,we shouldnt be making changes to the state directly 
+
 so what we're doing is creating an object that we can modify before updating the state. 
-we're going to update the matchCount if there is a match, if not, we'll just leave it as it  
+we're going to update the matchCount if there is a match, if not, we'll just leave it as it  if
 	if the button type is not picked , we're going to just set the match to false and move on 
 		once we're run through this if-statement we're going to set the state and load the next dog 
-		
+
+
+
 
 
 	
