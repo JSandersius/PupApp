@@ -14,18 +14,16 @@ class Search extends Component {
         this.state({})
     }
 
-}
+    render() {
+        return (
+            <Container style={{ minHeight: "80%" }} >
+                <h1 className="text-center">Search By Breed!</h1>
+                <SearchForm />
+                <SearchResults />
+            </ Container>
+        );
+    }
 
-render() {
-    return (
-        <Container style={{ minHeight: "80%" }} >
-            <h1 className="text-center">Search By Breed!</h1>
-            <SearchForm />
-            <SearchResults />
-        </ Container>
-    );
 }
-}
-
 export default Search;
 
