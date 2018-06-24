@@ -9,8 +9,8 @@ import Wrapper from './components/Wrapper';
 import logo from './logo.svg';
 import './App.css';
 
-const App = () =>
-  (<Router>
+const App = () => (
+  <Router>
     <div>
       <Navbar />
       <Wrapper>
@@ -21,7 +21,8 @@ const App = () =>
       </Wrapper>
       <Footer />
     </div>
-  </Router>);
+  </Router>
+);
 
 
 export default App;
