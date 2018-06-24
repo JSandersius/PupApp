@@ -9,12 +9,12 @@ class Search extends Component {
 
     render() {
         return (
-            <Container style=({ minHeight: "80%" }) >
+            <Container style={{ minHeight: "80%" }} >
                 <h1 className="text-center">Search By Breed!</h1>
                 <SearchForm />
-                <SearchResults /> 
+                <SearchResults />
             </ Container>
-                );
+        );
     }
 }
 
